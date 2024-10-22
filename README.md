@@ -13,40 +13,31 @@ By the end of this project, students will:
 Instructions:
 
 1. Data Exploration
- Load the Titanic dataset (seaborn.load_dataset('titanic')) and display the first few 
-rows.
- Explore the dataset structure and check for missing values.
- Visualize the relationships between key features and the target variable (Survived).
+   Load the Titanic dataset (seaborn.load_dataset('titanic')) and display the first few rows.
+   Explore the dataset structure and check for missing values.
+   Visualize the relationships between key features and the target variable (Survived).
 
 2. Data Cleaning
- Handle missing values: Impute missing values in Age, Embarked, and other columns 
-as needed.
- Handle outliers: Use visualization tools like boxplots to detect and handle outliers in 
-features like Fare.
+   Handle missing values: Impute missing values in Age, Embarked, and other columns as needed.
+   Handle outliers: Use visualization tools like boxplots to detect and handle outliers in features like Fare.
 
 3. Feature Engineering
- Family Size: Create a new feature by adding SibSp and Parch to form a FamilySize
-feature.
- Age Binning: Bucket the Age feature into categories (e.g., children, teenagers, adults, 
-seniors).
- Fare Binning: Categorize the Fare feature into groups based on ticket price ranges.
+   Family Size: Create a new feature by adding SibSp and Parch to form a FamilySize feature.
+   Age Binning: Bucket the Age feature into categories (e.g., children, teenagers, adults, seniors).
+   Fare Binning: Categorize the Fare feature into groups based on ticket price ranges.
 
 4. Data Transformation
- Encode categorical variables like Sex, Embarked, and newly created features 
-(AgeGroup, FareGroup).
- Scale numerical features (Fare, Age, FamilySize) using a standard scaler or min-max 
-scaler.
+   Encode categorical variables like Sex, Embarked, and newly created features (AgeGroup, FareGroup).
+   Scale numerical features (Fare, Age, FamilySize) using a standard scaler or min-max scaler.
 
 5. Model Preparation
- Split the data into training and testing sets (70% training, 30% testing).
- Train a simple classification model (Logistic Regression) to predict survival.
- Evaluate the model using accuracy, confusion matrix, and classification report.
+   Split the data into training and testing sets (70% training, 30% testing).
+   Train a simple classification model (Logistic Regression) to predict survival.
+   Evaluate the model using accuracy, confusion matrix, and classification report.
 
 Report Submission Guidelines:
- Title Page: Include the project title, student's name, and submission date.
- Introduction: Briefly explain the dataset and objectives of the project.
- Methodology: Document all steps for EDA, data cleaning, transformation, feature 
-engineering, and model training.
- Results and Discussion: Present key findings, model performance, and 
-visualizations.
- Conclusion: Summarize insights and improvements made to the dataset
+Title Page: Include the project title, student's name, and submission date.
+Introduction: Briefly explain the dataset and objectives of the project.
+Methodology: Document all steps for EDA, data cleaning, transformation, feature engineering, and model training.
+Results and Discussion: Present key findings, model performance, and visualizations.
+Conclusion: Summarize insights and improvements made to the dataset
