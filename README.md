@@ -36,8 +36,9 @@ Instructions:
    Evaluate the model using accuracy, confusion matrix, and classification report.
 
 Report Submission Guidelines:
-Title Page: Include the project title, student's name, and submission date.
-Introduction: Briefly explain the dataset and objectives of the project.
-Methodology: Document all steps for EDA, data cleaning, transformation, feature engineering, and model training.
-Results and Discussion: Present key findings, model performance, and visualizations.
-Conclusion: Summarize insights and improvements made to the dataset
+•	Title Page: Include the project title, student's name, and submission date.
+•	Introduction: Briefly explain the dataset and objectives of the project.
+•	Methodology: Document all steps for EDA, data cleaning, transformation, feature engineering, and model training.
+•	Results and Discussion: Present key findings, model performance, and visualizations.
+•	Conclusion: Summarize insights and improvements made to the dataset
+
